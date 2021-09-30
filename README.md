@@ -1,0 +1,12 @@
+# Simple Attacker
+
+© 2021 Dark Tornado, All rights reserved.
+
+## To do
+* [ ] Send UDP Packet
+* [ ] Send GET Request
+* [ ] Send GET Request
+
+## Why am I making this?
+* Somebody sent `Phishing E-mail` to me.
+* I'd like to play with the fake website.
