@@ -47,8 +47,8 @@ class UdpSenderUI (val ctx: Context) {
         txt10.hint = "Input Delay..."
         layout.addView(txt10)
         val send = Button(ctx);
-        send.transformationMethod = null
         send.text = "Start";
+        send.transformationMethod = null
         layout.addView(send)
 
         val pad = dip2px(16)
