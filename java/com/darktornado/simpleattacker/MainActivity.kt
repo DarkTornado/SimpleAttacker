@@ -8,12 +8,14 @@ import android.graphics.drawable.Drawable
 import android.graphics.drawable.RippleDrawable
 import android.os.Build
 import android.os.Bundle
+import android.os.StrictMode
 import com.darktornado.library.BottomNavigationLayout
 
 
 class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        StrictMode.enableDefaults()
         val udp = UdpSenderUI(this)
         val http = HttpRequesterUI(this)
         val layout = BottomNavigationLayout(this)
